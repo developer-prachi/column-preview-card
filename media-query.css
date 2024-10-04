@@ -1,0 +1,47 @@
+/*****************************************************/
+/*BELOW 944px (Tablets)/*
+/*****************************************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px/16px=0.5=50% */
+    font-size: 50%;
+  }
+  .container {
+    grid-template-columns: 25rem 25rem 25rem;
+    margin: 10rem 5rem;
+  }
+}
+/*****************************************************/
+/*BELOW 850px 
+/*****************************************************/
+
+@media (max-width: 53em) {
+  .container {
+    grid-template-columns: 20rem 20rem 20rem;
+    margin: 10rem 5rem;
+  }
+}
+
+/*****************************************************/
+/*BELOW 690px  (Smaller Tablets)/*
+/*****************************************************/
+@media (max-width: 43em) {
+  html {
+    /* 6px/16px=0.37=37% */
+    font-size: 37%;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    /* margin: 10rem 5rem; */
+  }
+  body {
+    height: 100%;
+  }
+  .content {
+    margin-bottom: 2rem;
+  }
+  .button {
+    padding: 1rem 1.5rem;
+  }
+}
